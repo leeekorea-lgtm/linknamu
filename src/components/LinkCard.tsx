@@ -20,7 +20,7 @@ export default function LinkCard({ id, label, url }: LinkItem) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
-      className="block w-full rounded-xl border border-neutral-200 bg-white px-5 py-4 text-center font-medium text-neutral-900 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100"
+      className="block w-full rounded-2xl border border-white/60 bg-white/50 px-5 py-4 text-center font-medium text-neutral-800 shadow-[0_4px_20px_-10px_rgba(120,72,25,0.35)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:bg-white/70 hover:shadow-[0_8px_24px_-8px_rgba(120,72,25,0.35)] dark:border-white/10 dark:bg-white/[0.06] dark:text-neutral-100 dark:hover:bg-white/[0.1]"
     >
       {label}
     </a>
